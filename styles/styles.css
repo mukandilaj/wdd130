@@ -4,6 +4,8 @@
     --heading-font: 'Montserrat', Helvetica, sans-serif;
     --padding: 1rem;
     --border: 1px solid rgb(0 0 0 / 0.1);
+    --text-align: center;
+    --primary-border: 1px solid black;
 }
 
 nav {
@@ -21,7 +23,7 @@ h1 {
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid black;
+    border: var(--primary-border);
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
@@ -40,7 +42,7 @@ aside {
     padding: var(--padding);
     background-color: #eee;
     color: var(--heading-text-color);
-    text-align: center;
+    text-align: var(--text-align);
 }
 
 aside img {
@@ -50,6 +52,6 @@ aside img {
 
 footer {
     margin-top: 15px;
-    border-top: 1px solid #000;
-    text-align: center;
+    border-top: var(--primary-border);
+    text-align: var(--text-align);
 }
