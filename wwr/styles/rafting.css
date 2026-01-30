@@ -34,7 +34,7 @@ h1, h2 {
 }
 
 nav, p, section, article {
-    margin: 64px;
+    margin: 32px;
     padding: 8px;
 }
 
@@ -50,6 +50,8 @@ nav, p, section, article {
     display: block;
     width: 100%;
     height: auto;
+    float: right;
+    bottom: 10px;
 }
 
 h1 {
