@@ -34,7 +34,7 @@ h1, h2 {
 }
 
 nav, p, section, article {
-    margin: 32px;
+    margin: 64px;
     padding: 8px;
 }
 
