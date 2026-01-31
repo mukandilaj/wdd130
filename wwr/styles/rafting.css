@@ -51,7 +51,7 @@ nav, p, section, article {
     width: 100%;
     height: auto;
     float: right;
-    bottom: 10px;
+    top: 80px;
 }
 
 h1 {
