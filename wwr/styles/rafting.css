@@ -24,7 +24,7 @@ body {
 }
 
 header, main, footer {
-    width: 840px;
+    width: 1600px;
     margin: 0 auto;
 }
 
@@ -50,8 +50,6 @@ nav, p, section, article {
     display: block;
     width: 100%;
     height: auto;
-    float: right;
-    top: 80px;
 }
 
 h1 {
