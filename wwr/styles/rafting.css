@@ -151,3 +151,87 @@ footer p {
     color: #000;
     width: 100%;
 }
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+p {
+    margin: 0.25rem 0;
+}
+
+.information {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.employee {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5rem;
+    align-items: center;
+    text-align: center;
+}
+
+.employee img {
+    width: 100%;
+    height: 200px;
+}
+
+.employee-section {
+    grid-column: span 3;
+}
+
+form {
+    width: 450px;
+    display: grid;
+}
+
+.form-item {
+    display: grid;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
+
+.column1 {
+    grid-template-columns: 1fr 3fr;
+    margin: 0.5rem 0;
+}
+
+.form-item input, textarea {
+    font-size: 1.2rem;
+}
+
+.form-item input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: #055a05;
+}
+
+.radio-select {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
